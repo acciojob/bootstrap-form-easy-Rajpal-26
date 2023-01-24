@@ -14,14 +14,14 @@
     <form class="row g-3 needs-validation" novalidate>
       <div class="col-md-4">
         <label for="validationCustom01" class="form-label">First name</label>
-        <input type="text" class="form-control" id="validationCustom01" required>
+        <input type="text" class="form-control" id="validationCustom01 first-name-input" required>
         <div class="invalid-feedback">
           First name required
         </div>
       </div>
       <div class="col-md-4">
         <label for="validationCustom02" class="form-label">Last name</label>
-        <input type="text" class="form-control" id="validationCustom02" required>
+        <input type="text" class="form-control" id="validationCustom02 last-name-input" required>
         <div class="invalid-feedback">
           Last name required
         </div>
@@ -30,8 +30,8 @@
         <label for="validationCustomUsername" class="form-label">Email Address</label>
         <div class="input-group has-validation">
           <!-- <span class="text" id="inputGroupPrepend">@</span> -->
-          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
-            required>
+          <input type="text" class="form-control" id="validationCustomUsername email-input"
+            aria-describedby="inputGroupPrepend" required>
           <div class="invalid-feedback">
             Email required
           </div>
@@ -39,16 +39,19 @@
       </div>
       <div class="col-md-6">
         <label for="validationCustom03" class="form-label">College</label>
-        <input type="text" class="form-control" id="validationCustom03" required>
+        <input type="text" class="form-control" id="validationCustom03 college-input" required>
         <div class="invalid-feedback">
           Please provide a valid college.
         </div>
       </div>
       <div class="col-md-3">
         <label for="validationCustom04" class="form-label">Graduation Year</label>
-        <select class="form-select" id="validationCustom04" required>
+        <select class="form-select" id="validationCustom04 conditions-checkbox" required>
           <option selected disabled value="">Choose...</option>
-          <option>...</option>
+          <option>2020</option>
+          <option>2021</option>
+          <option>2022</option>
+          <option>2023</option>
         </select>
         <div class="invalid-feedback">
           Please select a valid Graduation Year.
@@ -56,7 +59,7 @@
       </div>
       <div class="col-md-3">
         <label for="validationCustom05" class="form-label">Roll No</label>
-        <input type="text" class="form-control" id="validationCustom05" required>
+        <input type="text" class="form-control" id="validationCustom05 roll-no-input" required>
         <div class="invalid-feedback">
           Please provide a valid Roll No.
         </div>
